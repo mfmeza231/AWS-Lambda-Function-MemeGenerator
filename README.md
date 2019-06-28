@@ -1,4 +1,5 @@
 # AWS Lambda Function - Meme Generator
+- The source code is also hosted within AWS' CodeBuild then stored in S3 before being deployed.
 - This Lambda function is triggerd by an Amazon IoT Dash Button and API Gateway (which is done on my website's IoT project page).
 - The function then creates a meme using the Flickr API.
 - The meme image file is then stored to an S3 bucket.
